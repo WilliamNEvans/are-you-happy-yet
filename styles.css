@@ -1,0 +1,11 @@
+.yes{
+    position: absolute;
+    top: 500px;
+    left: 10px;
+}
+
+.no{
+    position: absolute;
+    top: 500px;
+    left: 2200px;
+}
