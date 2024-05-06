@@ -1,11 +1,21 @@
-.yes{
-    position: absolute;
-    top: 500px;
-    left: 10px;
-}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    margin: auto;
 
-.no{
-    position: absolute;
-    top: 500px;
-    left: 2200px;
+}
+.skull{
+    position: relative;
+    top: -120%;
+    display: none;
+}
+.yes:hover+.skull{
+    display: block;
+}
+.yes-button{
+    width: 15%;
+    height: 10%;
 }
